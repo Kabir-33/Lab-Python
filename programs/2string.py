@@ -32,7 +32,19 @@ print("1st string you Entered :",b)
 b="Welcome to DYP College "
 print("Same string upadated later becomes :",b)
 
-# hey
+# upadating a string
+string1="Hello Kabir What are you doing"
+update_string=string1[0:2]+'p'+string1[3:]  # 3rd index character "l" is replaced by "p"
+print(update_string)
 
+string2=string1[0:2]+string1[3:]    # word at second position is deleted
+print(string2)
 
+# Formating of integer 
 
+k="{0:b}".format(16)        # To convert the string in binary format
+print("Binary form of 16 :")
+print(k)
+
+l="{0:.2f}".format(1/6)     # upto 2 decimal point only it print the digit 
+print(l)
