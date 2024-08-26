@@ -14,3 +14,8 @@ print(set3)
 
 set4=set1 & set2
 print("\nBy using operator: ",set4)
+
+# Set difference +
+
+set5=set1-set2
+print("Set difference is :",set5)
